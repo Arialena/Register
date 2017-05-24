@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#154db4">
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:id="@+id/installBackButton"
+            android:background="@drawable/back"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="设 置"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_marginLeft="130dp"
+            android:id="@+id/textView2" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#ffffff"
+        android:text="     消息推送"
+        android:gravity="center|left"
+        android:textSize="15dp"
+        android:textColor="#0caee4"
+        android:id="@+id/button_tuisong" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="     清除缓存"
+        android:textColor="#0caee4"
+        android:gravity="center|left"
+        android:textSize="15dp"
+        android:background="#e4e1e1"
+        android:id="@+id/button_huancun"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="     意见反馈"
+        android:gravity="center|left"
+        android:textColor="#0caee4"
+        android:textSize="15dp"
+        android:drawableRight="@drawable/more"
+        android:background="#ffffff"
+        android:id="@+id/button_yijian" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="     免责声明"
+        android:gravity="center|left"
+        android:textColor="#0caee4"
+        android:textSize="15dp"
+        android:drawableRight="@drawable/more"
+        android:background="#e4e1e1"
+        android:id="@+id/button_shengming" />
+
+</LinearLayout>
